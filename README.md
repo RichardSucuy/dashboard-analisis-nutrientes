@@ -18,10 +18,14 @@ Este es un sistema interactivo construido con **Python y Streamlit** para el an�
 ## 📸 Vista previa del Panel
 
 ### Panel de Análisis del Suelo
-
+- Capturas Verticales
 ![panel-suelo1](images/panel-suelo1.jpg)
 ![panel-suelo2](images/panel-suelo2.jpg)
 
+- Capturas Horizontales
+![panel-sueloA](images/panel-sueloA.png)
+![panel-sueloB](images/panel-sueloB.png)
+![panel-sueloC](images/panel-sueloC.png)
 
 ## 🗂️ Estructura del proyecto
 

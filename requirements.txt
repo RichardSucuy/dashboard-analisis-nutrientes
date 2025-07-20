@@ -1,0 +1,11 @@
+streamlit
+pandas
+openpyxl
+plotly
+pyinstaller
+streamlit-aggrid
+folium 
+streamlit-folium
+selenium 
+webdriver-manager
+pdfkit

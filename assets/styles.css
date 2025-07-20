@@ -1,0 +1,65 @@
+/* Estilo para eliminar márgenes laterales */
+.block-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Puedes añadir más ajustes personalizados aquí */
+/* 🔄 Tabla con encabezados rotados verticalmente */
+/* 🎯 Rotar encabezados 90° hacia arriba y centrar */
+/* .vertical-headers th {
+    height: 140px;
+    width: 55px;
+    padding: 5px;
+    font-size: 0.75rem;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.vertical-headers th > div {
+    transform: rotate(-90deg);
+    transform-origin: center center;
+    display: inline-block;
+    line-height: 1.1;
+    white-space: pre-line; 
+}  */
+
+.vertical-headers th {
+    height: 90px;            /* Reduce altura general */
+    width: 55px;
+    padding: 0 5px;
+    font-size: 0.75rem;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.vertical-headers th > div {
+    transform: rotate(-90deg);
+    transform-origin: center center;   /* 🎯 Mantiene centrado en su celda */
+    display: inline-block;
+    line-height: 1.1;
+    white-space: pre-line;
+    margin-top: 10px;     /* 🔧 Empuja texto hacia abajo DENTRO del th */
+}
+.valor-vacio {
+    color: #999;
+    position: relative;
+    display: inline-block;
+}
+
+.valor-vacio::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #999;
+    transform: translateY(-50%);
+}
